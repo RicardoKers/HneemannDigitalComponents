@@ -12,6 +12,10 @@
       <elementName>Clock</elementName>
       <elementAttributes>
         <entry>
+          <string>runRealTime</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
           <string>Label</string>
           <string>CLK50</string>
         </entry>
@@ -22,10 +26,6 @@
         <entry>
           <string>Frequency</string>
           <int>256</int>
-        </entry>
-        <entry>
-          <string>runRealTime</string>
-          <boolean>true</boolean>
         </entry>
       </elementAttributes>
       <pos x="700" y="280"/>
@@ -76,6 +76,10 @@
       <elementName>Const</elementName>
       <elementAttributes>
         <entry>
+          <string>Value</string>
+          <long>15</long>
+        </entry>
+        <entry>
           <string>Bits</string>
           <int>4</int>
         </entry>
@@ -91,12 +95,12 @@
       <elementName>ROM</elementName>
       <elementAttributes>
         <entry>
-          <string>Label</string>
-          <string>r1</string>
-        </entry>
-        <entry>
           <string>AddrBits</string>
           <int>3</int>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>r1</string>
         </entry>
         <entry>
           <string>Bits</string>
@@ -117,14 +121,14 @@
       <elementName>Counter</elementName>
       <elementAttributes>
         <entry>
+          <string>Bits</string>
+          <int>3</int>
+        </entry>
+        <entry>
           <string>inverterConfig</string>
           <inverterConfig>
             <string>C</string>
           </inverterConfig>
-        </entry>
-        <entry>
-          <string>Bits</string>
-          <int>3</int>
         </entry>
       </elementAttributes>
       <pos x="680" y="380"/>
