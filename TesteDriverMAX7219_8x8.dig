@@ -160,6 +160,15 @@
           <string>ledPersistence</string>
           <boolean>true</boolean>
         </entry>
+        <entry>
+          <string>Color</string>
+          <awt-color>
+            <red>51</red>
+            <green>204</green>
+            <blue>0</blue>
+            <alpha>255</alpha>
+          </awt-color>
+        </entry>
       </elementAttributes>
       <pos x="920" y="440"/>
     </visualElement>
