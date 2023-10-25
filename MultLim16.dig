@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <circuit>
-  <version>1</version>
+  <version>2</version>
   <attributes/>
   <visualElements>
     <visualElement>
@@ -168,6 +168,29 @@
         </entry>
       </elementAttributes>
       <pos x="840" y="280"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Testcase</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Testdata</string>
+          <testData>
+            <dataString>A B Y
+10 34 340
+# -10 34 -340
+0xFFF6 34 0xFEAC
+# 10 -34 -340
+10 0xFFDE 0xFEAC
+3276 10 32760
+3276 11 32767
+# 3276 -10 -32760
+3276 0xFFF6 0x8008
+#3276 -11 -32768
+3276 0xFFF5 0x8000</dataString>
+          </testData>
+        </entry>
+      </elementAttributes>
+      <pos x="840" y="140"/>
     </visualElement>
   </visualElements>
   <wires>
