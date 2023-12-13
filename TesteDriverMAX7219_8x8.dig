@@ -89,7 +89,7 @@
     <visualElement>
       <elementName>DriverMAX7219_8x8.dig</elementName>
       <elementAttributes/>
-      <pos x="900" y="280"/>
+      <pos x="900" y="260"/>
     </visualElement>
     <visualElement>
       <elementName>ROM</elementName>
